@@ -108,7 +108,7 @@ input {
     height: 40px;
     border-radius: 50%;
     border: none;
-    background-image: url(./Greentick.png);
+    background-image: url("https://github.com/arjunsingh27/To-do_List/blob/7aedebf4e9977fa9b8baf5fc09a5d7af9d8ee993/%20Greentick.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
