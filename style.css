@@ -108,7 +108,7 @@ input {
     height: 40px;
     border-radius: 50%;
     border: none;
-    background-image: url(./Images/\ Greentick.png);
+    background-image: url( Greentick.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
