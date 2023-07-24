@@ -3,7 +3,14 @@ const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
 const ejs = require("ejs");
 const app = express();
-mongoose.connect("mongodb+srv://arjunsingh27:Test123@cluster0.0t9vaxx.mongodb.net/todoList");
+MONGODB_URI="mongodb+srv://arjunsingh27:Test123@cluster0.0t9vaxx.mongodb.net/todoList";
+try {
+  await mongoose.connect(MONGODB_URI, options);
+  console.log('Connected to MongoDB.');
+} catch (error) {
+  console.error('Error connecting to MongoDB:', error);
+}
+ 
 
 
 
